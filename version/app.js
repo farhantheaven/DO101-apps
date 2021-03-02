@@ -5,7 +5,7 @@ var response;
 
 app.get('/', function (req, res) {
 
-    response = 'Farro is Farro' + '\n';
+    response = 'Checking build on github push' + '\n';
 
     //send the response to the client
     res.send(response);
